@@ -7,7 +7,6 @@ import { idbPromise } from "../../utils/helpers";
 import './style.css';
 
 const Cart = () => {
-    
     const [state, dispatch] = useStoreContext();
 
     useEffect(() => {
