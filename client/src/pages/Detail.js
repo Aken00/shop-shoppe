@@ -10,18 +10,22 @@ import {
   ADD_TO_CART,
   UPDATE_PRODUCTS,
 } from "../utils/actions";
+import { useDispatch, useSelector } from 'react-redux';
 import { QUERY_PRODUCTS } from "../utils/queries";
 import { idbPromise } from "../utils/helpers";
 import spinner from '../assets/spinner.gif'
 
 function Detail() {
-  const [state, dispatch] = useStoreContext();
+  // const [state, dispatch] = useStoreContext();
+  const state = useSelector((state) => {
+    return state
+  });
+  
+  const dispatch = useDispatch();
+
   const { id } = useParams();
-
   const [currentProduct, setCurrentProduct] = useState({});
-
   const { loading, data } = useQuery(QUERY_PRODUCTS);
-
   const { products, cart } = state;
 
   useEffect(() => {
