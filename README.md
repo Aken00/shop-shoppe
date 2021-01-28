@@ -1,11 +1,10 @@
 # shop-shoppe
 
 ## Description
-Shop Shop is a fill-stack e-commerce platform that used 
+Shop Shop is a fill-stack e-commerce platform that used the code from the Shop Shop e-commerce platform. It is refactored to now use Redux to manage global state instead of the Context API. This will remove the site's state management from the React ecosystem. On top of this, the shopping cart, offline functionality and Stripe secure online payment processing has been added. 
 
 
 ## Table of Contents
-* [Enhancements](#enhancements)
 * [Technologies](#technologies)
 * [Screenshot](#screenshot)
 * [Links](#links)
@@ -22,7 +21,13 @@ Shop Shop is a fill-stack e-commerce platform that used
 ![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)  
 ![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)  
 
-## Screenshots
+## Screenshot
+#### Homepage for storefront and cart functionality 
+![Screenshot](./client/src/assets/Shop-shoppe-homepage.png)
 
 ## Links
+
+<a href="https://github.com/Aken00/shop-shoppe">![GitHub Repository](https://img.shields.io/badge/GitHub%20Repository-100000?style=for-the-badge&logo=github&logoColor=white)</a>  
+
+<a href="https://shop-shoppe-ak.herokuapp.com/">![Deployed Application](https://img.shields.io/badge/Deployed%20App-Shop%20Shop-E4405F?style=for-the-badge)</a> 
 
